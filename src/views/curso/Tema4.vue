@@ -264,28 +264,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de las siguientes opciones NO es una inteligencia propuesta por Howard Gardner en su teoría de las Inteligencias Múltiples?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Inteligencia Lingüística-Verbal',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Inteligencia Lógico-Matemática',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Inteligencia Emocional',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Inteligencia Espacial',
                 esCorrecta: false,
               },
             ],
@@ -295,29 +295,29 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'Según el Modelo de Kolb, ¿qué estilo de aprendizaje se caracteriza por preferir la experiencia concreta y la experimentación activa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Convergente',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'Divergente',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Asimilador',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
+                texto: 'Acomodador',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -326,28 +326,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál de los siguientes estilos de aprendizaje, según Honey y Mumford, se describe como "aprender haciendo, disfrutar de la acción y ser espontáneo"?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Activista',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Reflexivo',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Teórico',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Pragmático',
                 esCorrecta: false,
               },
             ],
@@ -356,28 +356,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'En el Modelo de los Cuadrantes Cerebrales de Herrmann, ¿qué cuadrante se asocia con el pensamiento lógico, analítico y crítico?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
+                texto: 'Cortical Izquierdo (CI)',
+                esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Límbico Izquierdo (LI)',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Límbico Derecho (LD)',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Cortical Derecho (CD)',
                 esCorrecta: false,
               },
             ],
@@ -387,28 +388,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué modelo de aprendizaje se centra en las preferencias y características individuales de los aprendices, identificando estilos como "Activista”, “Reflexivo”, ¿”Teórico” y “Pragmático”?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Modelo de Inteligencias Múltiples',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Modelo de Kolb',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Modelo de Honey y Mumford',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Modelo de los Cuadrantes Cerebrales',
                 esCorrecta: false,
               },
             ],
