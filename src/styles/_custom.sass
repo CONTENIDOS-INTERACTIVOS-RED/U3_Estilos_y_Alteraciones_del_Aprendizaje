@@ -17,20 +17,47 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #D7F9FE
   &-2
-    background-color: #FFFBE8
+    background-color: #D9D5E3
   &-3
-    background-color: #F0E9F6
+    background-color: #F6ECAA
   &-4
-    background-color: #EAF8FD
+    background-color: #FCF9E5
+  &-5
+    background-color: #453179
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
-
+.bg_img
+  position: relative
+  p, figure, .tarjeta, h2, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -48px
+    width: calc(100% + 96px)
+    height: 75%
+    background: linear-gradient(0deg, rgba(235,233,240,1) 0%, rgba(255,255,255,1) 100%)
+  &-2
+    position: relative
+    p, figure, .tarjeta, h2, .row
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 46%
+      left: -48px
+      width: calc(100% + 96px)
+      height: 42%
+      background: #F2F1F5
 .border-top
   &.color-primario
     border-top: 5px solid $color-primario !important
