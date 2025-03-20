@@ -7,28 +7,28 @@
       p.mb-4 En esta tercera y última unidad, se abordarán los estilos de aprendizaje y diferentes modelos, entre ellos:
 
       .row.justify-content-center.align-items-stretch.mb-4
-        .col-lg-3
+        .col-lg-3.mb-3.mb-lg-0.text-center
           .bg-color-3.p-4(data-aos="fade-left").h-100
             .row.align-items-center
               .col-lg-auto
                 img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Modelo de Inteligencias Múltiples
-        .col-lg-3
+        .col-lg-3.mb-3.mb-lg-0.text-center
           .bg-color-3.p-4(data-aos="fade-left").h-100
             .row.align-items-center
               .col-lg-auto
                 img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Modelo de Kolb
-        .col-lg-3
+        .col-lg-3.mb-3.mb-lg-0.text-center
           .bg-color-3.p-4(data-aos="fade-left").h-100
             .row.align-items-center
               .col-lg-auto
                 img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Modelo de Honey
-        .col-lg-3
+        .col-lg-3.mb-3.mb-lg-0.text-center
           .bg-color-3.p-4(data-aos="fade-left").h-100
             .row.align-items-center
               .col-lg-auto

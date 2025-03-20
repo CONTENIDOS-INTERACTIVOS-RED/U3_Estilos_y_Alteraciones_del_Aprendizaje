@@ -13,7 +13,7 @@
         p(data-aos="fade-left")  El modelo fue presentado por primera vez en el libro The Manual of Learning Styles (1982) y sostiene que el aprendizaje es un proceso continuo compuesto por cuatro etapas interrelacionadas:
     
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -21,7 +21,7 @@
             .col-lg
               h5 01
               p.mb-0 Experiencia
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -29,7 +29,7 @@
             .col-lg
               h5 02
               p.mb-0 Revisión de la experiencia
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -37,7 +37,7 @@
             .col-lg
               h5 03
               p.mb-0 Conclusión a partir de la experiencia
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -114,7 +114,7 @@
           .col-lg-4(data-aos="zoom-in")
             img.img-fluid(src='@/assets/curso/tema3/7.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
     
-    .bg-full-width.bg-color-2.mb-lg-5
+    .bg-full-width.bg-color-2.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2

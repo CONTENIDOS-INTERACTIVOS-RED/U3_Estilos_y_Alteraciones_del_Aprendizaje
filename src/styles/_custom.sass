@@ -25,7 +25,7 @@
   &-4
     background-color: #FCF9E5
   &-5
-    background-color: #453179
+    background-color: #453179 !important
   &-6
     background-color: #DCE8FA
   &-info
@@ -36,7 +36,7 @@
     background-color: #fff
 .bg_img
   position: relative
-  p, figure, .tarjeta, h2, .row
+  p, figure, .tarjeta, h2, .row, .bg-color-5
     position: relative
   &::before
     content: ''
@@ -73,6 +73,10 @@
       width: calc(100% + 96px)
       height: 85%
       background: #FCF9E5
+    @media screen and (max-width: $bp-max-md)
+      &::before
+        top: -10px
+        height: 100%
   &-4
     position: relative
     p, figure, .tarjeta, h2, .row
@@ -99,6 +103,21 @@
       width: calc(100% + 96px)
       height: 73%
       background: #F2F1F5
+  &-6
+    position: relative
+    p, figure, .tarjeta, h2, .row, .tabla-a
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 58%
+      left: -48px
+      width: calc(100% + 96px)
+      height: 47%
+      background: #F2F1F5
+.pst
+  min-width: 600px !important
 .border-top
   &.color-primario
     border-top: 5px solid $color-primario !important
