@@ -118,14 +118,14 @@
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
-            h2.mb-4(data-aos="flip-up") Modelo de inteligencias múltiples
-            p.mb-4(data-aos="fade-right") Los invitamos a leer <b>Modelo de inteligencias múltiples</b>, un enfoque que amplía la comprensión sobre cómo cada persona aprende de manera única. Este documento explora la teoría propuesta por Howard Gardner, destacando las distintas formas de inteligencia que influyen en el aprendizaje y en la vida cotidiana.
+            h2.mb-4(data-aos="flip-up") Estilos de aprendizaje de Honey y Mumford
+            p.mb-4(data-aos="fade-right") Los invitamos a leer el documento Estilos de aprendizaje de Honey y Mumford, donde se exploran los cuatro estilos de aprendizaje identificados por estos autores: activo, reflexivo, teórico y pragmático.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Modelo de inteligencias múltiples.
+                p <strong>Anexo. </strong> Estilos de aprendizaje de Honey y Mumford.
     
           .col-lg-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")

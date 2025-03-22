@@ -204,7 +204,7 @@
             h2.mb-4(data-aos="flip-up") Modelo de inteligencias múltiples
             p.mb-4(data-aos="fade-right") Los invitamos a leer <b>Modelo de inteligencias múltiples</b>, un enfoque que amplía la comprensión sobre cómo cada persona aprende de manera única. Este documento explora la teoría propuesta por Howard Gardner, destacando las distintas formas de inteligencia que influyen en el aprendizaje y en la vida cotidiana.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
