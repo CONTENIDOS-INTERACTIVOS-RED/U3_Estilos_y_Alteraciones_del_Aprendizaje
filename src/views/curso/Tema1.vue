@@ -96,7 +96,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h5.mb-1 Teorías del aprendizaje y práctica docente
-                    p.mb-0 Para iniciar, es fundamental recordar qué es el aprendizaje. Para ello, se recomienda revisar el siguiente video: 
+                    p.mb-0 Para profundizar en este tema, se sugiere la siguiente lectura:
                   .col-sm-auto
                     a.boton.color-primario(href="https://elibro.net/es/ereader/tecnologicadeloriente/33745?page=11" target="_blank")
                       span Ir al sitio

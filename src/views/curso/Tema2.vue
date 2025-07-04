@@ -166,14 +166,14 @@
       h2 #[span 2.2] Función del docente en este modelo
 
     .bg_img-4.mb-5
-      .row.mb-5
+      .row.mb-4
         .col-lg-4.order-2
           figure
             img(src="@/assets/curso/tema2/11.png", data-aos="zoom-in")
         .col-lg-8.order-1.mb-3.mb-lg-0
           p(data-aos="fade-left") El aprendizaje experiencial se concibe como un proceso que conecta las vivencias personales con nuevos conocimientos, promoviendo así un aprendizaje continuo y significativo. Según González, Patarroyo y Carreño (2017), citados por Espinar y Vigueras (2020), este enfoque permite a los docentes tomar decisiones informadas al seleccionar e integrar recursos didácticos adaptados a los diversos estilos de aprendizaje de sus estudiantes. De esta manera, se optimiza el desarrollo del aprendizaje y se fomenta la equidad en el aula, valorando la diversidad y reconociendo las particularidades individuales.
       
-          .bg-color-6.p-4.mb-3(data-aos="fade-left")
+          .bg-color-6.p-4.mb-4(data-aos="fade-left")
             .row.align-items-start
               .col-lg-auto
                 img(src="@/assets/curso/tema2/12.svg", style="max-width: 90px").mx-auto
@@ -186,7 +186,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6
           TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-            texto="Fundamentos de la innovación estratégica"
+            texto="Rol del docente en cada fase del ciclo de Kolb"
             tiempo
             :audio="require('../../assets/curso/podcast/podcast1.mp3')"
           )
