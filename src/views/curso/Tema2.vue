@@ -252,7 +252,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Ed Knows & Suss Draws. (2021, 17 de noviembre). Estilos de aprendizaje ¡Test para saber el tuyo! [Vídeo] Youtube. 
+              a(href="https://youtu.be/DuEKXHuH5as?si=uHsyrXf9ACfCaITd" target="_blank" rel="noopener noreferrer") Ed Knows & Suss Draws. (2021, 17 de noviembre). Estilos de aprendizaje ¡Test para saber el tuyo! [Vídeo] Youtube. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

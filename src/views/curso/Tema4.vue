@@ -233,7 +233,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.intellectus.edu.gt/blog/inteligencias-multiples/" target="_blank" rel="noopener noreferrer") Editorial Corporación Intellectus. (12 de abril, 2024). Inteligencias Múltiples: Qué Son y su Importancia en la Educación. Blog. 
+              a(href="https://cienciadigital.org/revistacienciadigital2/index.php/ConcienciaDigital/article/download/1995/4907" target="_blank" rel="noopener noreferrer") Galarza, J. C. G., Guamani, M. A. E., Bones, S. B. A., & Morales, E. D. R. R. (2023). Inteligencias múltiples y su desarrollo en los procesos pedagógicos, una revisión sistemática. ConcienciaDigital, 6(1.4), 233-250. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
